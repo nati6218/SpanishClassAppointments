@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+  <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+  <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+
+  <title>Spanish Classes </title>
+
+</head>
+<body>
+  <h1> Let's book your Spanish Classes</h1>
+
+  <p>Please sign up and select the days work the best for you</p>
+  <div id="container">
+  <form>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Name</label>
+    <input type="text" class="form-control" id="name" >
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Select date</label>
+    <select class="form-control" id="date">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+      <option>23</option>
+      <option>24</option>
+      <option>25</option>
+      <option>26</option>
+      <option>27</option>
+      <option>28</option>
+      <option>29</option>
+      <option>30</option>
+      <option>31</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Select day</label>
+    <select multiple class="form-control" id="day">
+      <option>Monday</option>
+      <option>Tuesday</option>
+      <option>Wednesday</option>
+      <option>Thursday</option>
+      <option>Friday</option>
+    </select>
+  </div>
+
+  <div class="form-row align-items-center">
+    <div class="col-auto my-1">
+      <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+      <select class="custom-select mr-sm-2" id="time">
+        <option selected>Choose Time</option>
+        <option value="1pm">1pm</option>
+        <option value="4pm">4pm</option>
+        <option value="6pm">6pm</option>
+      </select>
+    </div>
+    <br>
+    <div class="col-auto my-1">
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+  </div>
+</form>
+
+<div id="confirmation">
+<h2> We have you booked!!</h2>
+<p> Your spanish class is confirmed for <span class="name"></span> the date <span class="date"></span> on the day <span class="day"></span> at <span class="time"></span> thanks for choosing us! </p>
+</div>
+</body>
+</html>
